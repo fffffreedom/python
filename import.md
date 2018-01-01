@@ -12,3 +12,14 @@ print datetime.now()
 总结：Python导入模块的方法有两种：import module 和 from module import，区别是前者所有导入的东西使用时需加上模块名的限定，而后者不需要。
 
 https://www.cnblogs.com/xxoome/p/5880693.html
+
+
+from somemodule import somefunction, anotherfunction, yetanotherfunction  
+from somemodule import *  
+from somemodule import somefunction as shortname  
+```
+#!/usr/bin/env python
+
+from math import sqrt as mysqrt
+print mysqrt(4)
+```
